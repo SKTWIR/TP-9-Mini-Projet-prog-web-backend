@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #efefef;
+}
+
+.login-box {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

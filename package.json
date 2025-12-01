@@ -1,0 +1,17 @@
+{
+  "name": "volley-app",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.0",
+    "express-session": "^1.17.3",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.1.1"
+  }
+}

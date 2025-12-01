@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Volley App - Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Bienvenue sur l'application Volley</h1>
+
+<div class="login-box">
+    <h3>Connexion</h3>
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Se connecter</button>
+    <button onclick="register()">Créer un compte</button>
+</div>
+
+<h2>Joueurs</h2>
+<input id="search" placeholder="Rechercher..." onkeyup="filterTable()">
+
+<table id="players-table"></table>
+
+<script src="js/login.js"></script>
+<script src="js/tables.js"></script>
+</body>
+</html>
