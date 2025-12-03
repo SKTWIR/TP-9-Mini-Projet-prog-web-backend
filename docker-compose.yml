@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: mini-projet-backend
+    ports:
+      - "3000:3000" # Mappe le port 3000 du PC vers le 3000 du conteneur
+    volumes:
+      # Synchronise votre dossier actuel avec le conteneur (pour le développement)
+      - ./:/app
+      # Évite d'écraser les node_modules du conteneur par ceux de votre PC
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    # Commande de démarrage (si différente de celle du Dockerfile)
+    # command: node main.js
